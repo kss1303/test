@@ -1,0 +1,17 @@
+.container {
+  box-sizing: border-box;
+  max-width: 768px;
+  outline: 1px solid gray;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+input.ng-invalid {
+  border: 2px solid red;
+}
+button {
+  margin-top: 10px;
+}
+button ~ button {
+  margin-left: 10px;
+}
